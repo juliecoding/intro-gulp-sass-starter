@@ -1,3 +1,15 @@
+$fontSize: 14px;
+$primaryColor: red;
+$primaryColorLight: lighten($primaryColor, 20);
+
 .name {
-    font-size: 22px;
+    font-size: $fontSize;
+}
+
+.drug {
+    color: $primaryColor
+}
+
+.staining {
+    color: $primaryColorLight
 }

@@ -35,14 +35,14 @@ var cachebust = new CacheBuster();
 
 
 // gulp.task('build-js', ['clean'], function() {
-//    return gulp.src('js/**/*.js')               
+//    return gulp.src('js/**/*.js')
     //   .pipe(sourcemaps.init())
-    //   .pipe(print())                        
+    //   .pipe(print())
     //   .pipe(babel({ presets: ['es2015'] }))
     //   .pipe(concat('bundle.js'))
     //   //.pipe(uglify())
-    //   .pipe(sourcemaps.write('./')) 
-    //   .pipe(gulp.dest('./dist/js')); 
+    //   .pipe(sourcemaps.write('./'))
+    //   .pipe(gulp.dest('./dist/js'));
 // });
 
 // gulp.task('build', [ 'clean', 'build-css', 'build-js'], function() {

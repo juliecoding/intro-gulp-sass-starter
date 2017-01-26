@@ -1,0 +1,12 @@
+@import 'variables';
+
+.name {
+  font-size: 14px; }
+
+.drug {
+  color: red; }
+
+.staining {
+  color: #ff6666; }
+
+/*# sourceMappingURL=maps/styles.css.map */
